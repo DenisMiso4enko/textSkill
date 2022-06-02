@@ -1,0 +1,376 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #667085;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+a {
+    color: inherit;
+}
+/*==================Header===================*/
+.header {
+   
+}
+.header::after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: #E4E7EC;
+    position: absolute;
+    top: 90px;
+}
+.container {
+    width: 1396px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.wrapper__header {
+}
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 31px 0 29px;
+    
+}
+
+.header__logo {
+}
+.header__nav {
+}
+.nav__list {
+}
+li {
+    display: inline;
+    margin-right: 32px;
+}
+li:last-child {
+    margin-right: 0;
+}
+.nav__link {
+}
+.wrapper__header-btn {
+}
+.header__btn {
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 12px 34px;
+    background: #7F56D9;
+    border-radius: 0px;
+}
+.header__content {
+    margin-top: 96px;
+    background: url(../img/victoria.jpg) no-repeat right;
+    height: 990px;
+
+    
+}
+.header__info {
+    z-index: 2;
+}
+.header__title {
+    width: 961px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 63px;
+    line-height: 90px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #101828;
+    margin-bottom: 60px;
+    
+}
+.header__text {
+    width: 376px;
+    font-size: 20px;
+}
+
+.header__img {
+   z-index: 1;
+   
+}
+/*==================Project=================*/
+
+.section__project {
+}
+.wrapper__project {
+}
+.project__title {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #101828;
+    margin-bottom: 41px;
+}
+.wrapper__text-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 64px;
+}
+.project__text {
+    width: 637px;
+    font-size: 18px;
+    line-height: 28px;
+}
+.project-btn {
+}
+.view__btn {
+    color: #FFFFFF;
+    background: #7F56D9;
+    padding: 0 20px;
+    text-align: center;
+}
+.project1__img {
+    margin-bottom: 24px;
+}
+
+/*==================About=================*/
+
+.section__about {
+    margin: 200px 0 200px;
+}
+.wrapper__about {
+}
+.about__title {
+    width: 938px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #101828;
+    margin-bottom: 104px;
+}
+.about__content {
+   margin-bottom: 128px;
+}
+.about__img1 {
+}
+.about__img2 {
+   margin-left: 42%;
+
+}
+.about__description {
+    
+}
+.description__text {
+    width: 671px;
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wrapper__about-btn {
+    margin-top: 43px;
+    margin-left: 353px;
+}
+.about__btn {
+    padding: 10px 35px;
+    color: #FFFFFF;
+    background: #7F56D9;
+    
+}
+
+/*==================Review=================*/
+.cards__review {
+}
+
+.wrapper__cards-review {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+}
+.wrapper__card {
+    width: 672px;
+    height: 360px;
+    background: #F9FAFB;
+    padding: 34px 32px 32px;
+    
+}
+.card__text {
+    width: 566px;
+    line-height: 24px;
+    color: #101828;
+    margin-bottom: 100px;
+}
+.card__person {
+}
+.person__ava {
+    margin-bottom: 15px;
+}
+.person__name {
+    font-size: 14px;
+    line-height: 20px;
+    color: #101828;
+    margin-bottom: 4px;
+}
+.person__work {
+    margin-bottom: 16px;
+}
+.offer {
+    float: left;
+}
+
+/*==================Blog=================*/
+
+.section__blog {
+    margin: 203px 0 258px;
+}
+.wrapper__blog {
+    
+
+}
+.blog__info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 64px;
+}
+.blog__title {
+    font-family: 'Oswald';
+    font-size: 43px;
+    line-height: 60px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #101828;
+    margin-bottom: 41px;
+}
+.blog__text {
+    width: 606px;
+    font-size: 18px;
+    line-height: 28px;
+  
+}
+.blog__info-btn {
+    margin-top: 105px;
+}
+.blog__btn {
+    color: #FFFFFF;
+    padding: 10px 20px;
+    background: #7F56D9;
+}
+.wrapper__blog-cards {
+    display: flex;
+    justify-content: space-between;
+}
+.blog__card {
+}
+.blog__img {
+
+}
+.card__description {
+    padding-top: 32px;
+}
+.card__info {
+    max-width: 112px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #344054;
+    padding: 3px 12px;
+    background: #F2F4F7;
+    border-radius: 16px;
+    margin-bottom: 16px;
+}
+.description__card__title {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #101828;
+    margin-bottom: 20px;
+}
+.description__card__text {
+    width: 610px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.card__link {
+    font-size: 16px;
+    color: #6941C6;
+}
+
+/*==================work with us=================*/
+
+.section__work {
+    margin: 249px 0 148px;
+    position: relative;
+}
+.section__work::after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: #E4E7EC;
+    position: absolute;
+    top: 239px;
+}
+.wrapper__work {
+}
+.work__title {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 72px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #101828;
+}
+.work__link {
+    color: #7F56D9;
+}
+.work__link:hover {
+    text-decoration: underline;
+    
+
+}
+
+/*==================Footer=================*/
+
+.footer {
+   
+}
+
+.wrapper__footer-top {
+    padding: 64px 0 64px;
+    position: relative;
+}
+.wrapper__footer-top::after {
+    content: '';
+    width: 1376px;
+    height: 1px;
+    background: #E4E7EC;
+    position: absolute;
+    top: 203px;
+
+}
+.footer__logo {
+    margin-bottom: 31px;
+}
+.footer__nav {
+}
+.nav__list {
+}
+.nav__link {
+}
+
+.wrapper__footer-bottom {
+    padding: 32px 0 32px;
+    display: flex;
+}
+.bottom__text {
+    font-size: 16px;
+    margin-right: 4px;
+}
+.footer__link {
+    color: #98A2B3;
+    font-size: 15px;
+    margin-right: 12px;
+}
